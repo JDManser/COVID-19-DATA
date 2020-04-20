@@ -1,0 +1,21 @@
+Objective:
+
+Using raw data available from John Hopkins at https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data a dataset has been constructed for use with BI and analytics tools such as Tableau and PowerBI.
+The original data is saved in a wide format most likely to save space which presents a number of issues when loading into BI tools. 
+The primary goal of this work is to transform the data to a long format and clean making for easier analysis. 
+
+
+Definitions:
+
+#   Field Name                  Type                Description
+
+1   Province/State              STRING              The province or state in which the observation was recorded.
+2   Country/Region              STRING              The country or region in which the observation was recorded.
+3   Date                        DATE                Date of the observation.
+4   Lat                         FLOAT               Latitudinal coordinate of the country/state.
+5   Long                        FLOAT               Longitudinal coordinate of the country/state.
+6   Confirmed                   INT                 Number of confirmed cases for recorded date.
+7   Deaths                      INT                 Number of deaths for recorded date.
+8   Recovered                   INT                 Number of recovered cases for recorded date. 
+
+ 
